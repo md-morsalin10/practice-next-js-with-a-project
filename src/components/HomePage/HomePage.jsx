@@ -1,9 +1,12 @@
 import React from 'react';
+import HomePageContent from './HomePageContent/HomePageContent';
+import CardSection from './CardSection/CardSection';
 
 const HomePage = () => {
     return (
         <div>
-            <p>This is home page</p>
+            <HomePageContent/>
+            <CardSection/>
         </div>
     );
 };
