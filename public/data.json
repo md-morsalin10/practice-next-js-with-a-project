@@ -1,0 +1,301 @@
+[
+    {
+        "id": 1,
+        "name": "Sarah Ahmed",
+        "picture": "https://i.ibb.co.com/5WQXcz3G/g-1.avif",
+        "email": "sarah.dev@gmail.com",
+        "days_since_contact": 18,
+        "status": "overdue",
+        "tags": [
+            "WORK",
+            "TECH"
+        ],
+        "bio": "Former classmate and React mentor. We usually catch up over coffee to discuss MERN stack updates.",
+        "goal": 14,
+        "next_due_date": "2026-04-10"
+    },
+    {
+        "id": 2,
+        "name": "Tanvir Rahman",
+        "picture": "https://i.ibb.co.com/PsVm9wT8/m-1.avif",
+        "email": "tanvir.sports@yahoo.com",
+        "days_since_contact": 5,
+        "status": "on-track",
+        "tags": [
+            "HOBBY",
+            "FOOTBALL"
+        ],
+        "bio": "A massive Messi fan from the neighborhood. We play football together every Friday afternoon.",
+        "goal": 7,
+        "next_due_date": "2026-04-18"
+    },
+    {
+        "id": 3,
+        "name": "Nadia Islam",
+        "picture": "https://i.ibb.co.com/TM8JTdFj/g-2.webp",
+        "email": "nadia.designs@outlook.com",
+        "days_since_contact": 13,
+        "status": "almost due",
+        "tags": [
+            "WORK",
+            "UI/UX"
+        ],
+        "bio": "A talented designer who helps me understand Figma layouts. We are planning a joint project soon.",
+        "goal": 14,
+        "next_due_date": "2026-04-14"
+    },
+    {
+        "id": 4,
+        "name": "Emon khan",
+        "picture": "https://i.ibb.co.com/k2YckjjN/m-3.avif",
+        "email": "amit.das88@gmail.com",
+        "days_since_contact": 45,
+        "status": "overdue",
+        "tags": [
+            "COLLEGE"
+        ],
+        "bio": "Close friend from Dinajpur Polytechnic. We lost touch after graduation and need to reconnect.",
+        "goal": 30,
+        "next_due_date": "2026-03-25"
+    },
+    {
+        "id": 5,
+        "name": "Leonel Andres",
+        "picture": "https://i.ibb.co.com/Z6RCxjkv/m-4.jpg",
+        "email": "arif.engr@gmail.com",
+        "days_since_contact": 2,
+        "status": "on-track",
+        "tags": [
+            "WORK",
+            "JS"
+        ],
+        "bio": "Coding partner for GitHub tracker projects. We do pair programming sessions almost every night.",
+        "goal": 3,
+        "next_due_date": "2026-04-15"
+    },
+    {
+        "id": 6,
+        "name": "Maliha Zaman",
+        "picture": "https://i.ibb.co.com/h1rW1xDG/g-3.jpg",
+        "email": "maliha.z@live.com",
+        "days_since_contact": 25,
+        "status": "overdue",
+        "tags": [
+            "FAMILY",
+            "SCHOOL"
+        ],
+        "bio": "School friend from Nilphamari Govt Girls High School. We enjoy talking about hometown memories.",
+        "goal": 21,
+        "next_due_date": "2026-04-05"
+    },
+    {
+        "id": 7,
+        "name": "Zakir Hossain",
+        "picture": "https://i.ibb.co.com/rGHK2ksH/m-5.jpg",
+        "email": "sajid.h@gmail.com",
+        "days_since_contact": 28,
+        "status": "almost due",
+        "tags": [
+            "HOBBY",
+            "GYM"
+        ],
+        "bio": "My gym partner who keeps me motivated. He is currently helping me with a health roadmap.",
+        "goal": 30,
+        "next_due_date": "2026-04-16"
+    },
+    {
+        "id": 8,
+        "name": "Fariha Sultana",
+        "picture": "https://i.ibb.co.com/fd7V9zmp/g10.jpg",
+        "email": "fariha.sul@gmail.com",
+        "days_since_contact": 8,
+        "status": "on-track",
+        "tags": [
+            "WORK",
+            "BLOG"
+        ],
+        "bio": "Met during a tech seminar. She writes blogs about software engineering and project management.",
+        "goal": 14,
+        "next_due_date": "2026-04-20"
+    },
+    {
+        "id": 9,
+        "name": "Rahat Kabir",
+        "picture": "https://i.ibb.co.com/q3zx55Cr/m-6.jpg",
+        "email": "rahat.kabir@gmail.com",
+        "days_since_contact": 1,
+        "status": "on-track",
+        "tags": [
+            "COLLEGE",
+            "TECH"
+        ],
+        "bio": "A brilliant developer interested in Next.js. We often share resources and build small tools together.",
+        "goal": 7,
+        "next_due_date": "2026-04-21"
+    },
+    {
+        "id": 10,
+        "name": "Zarin Tasnim",
+        "picture": "https://i.ibb.co.com/KpQ5C6C8/g-5.jpg",
+        "email": "zarin.tasnim@yahoo.com",
+        "days_since_contact": 20,
+        "status": "overdue",
+        "tags": [
+            "FAMILY",
+            "DHAKA"
+        ],
+        "bio": "A creative cousin who loves photography. She often gives me feedback on my UI/UX designs.",
+        "goal": 15,
+        "next_due_date": "2026-04-08"
+    },
+    {
+        "id": 11,
+        "name": "Imtiaz Uddin Bappi",
+        "picture": "https://i.ibb.co.com/sdMQ6LrW/m-7.jpg",
+        "email": "mustafiz.dev@gmail.com",
+        "days_since_contact": 12,
+        "status": "on-track",
+        "tags": [
+            "WORK",
+            "BACKEND"
+        ],
+        "bio": "Expert in Node.js and MongoDB. We are currently collaborating on a DitiTools platform feature.",
+        "goal": 15,
+        "next_due_date": "2026-04-22"
+    },
+    {
+        "id": 12,
+        "name": "Anika Tabassum",
+        "picture": "https://i.ibb.co.com/Z1R8X92H/g-6.webp",
+        "email": "anika.t@outlook.com",
+        "days_since_contact": 3,
+        "status": "on-track",
+        "tags": [
+            "FAMILY",
+            "TRAVEL"
+        ],
+        "bio": "Cousin who loves exploring Bangladesh. We always plan trips together during Eid holidays.",
+        "goal": 10,
+        "next_due_date": "2026-04-19"
+    },
+    {
+        "id": 13,
+        "name": "Imran Hossain",
+        "picture": "https://i.ibb.co.com/p62v7C4T/m-8.jpg",
+        "email": "imran.poly@yahoo.com",
+        "days_since_contact": 60,
+        "status": "overdue",
+        "tags": [
+            "COLLEGE",
+            "ENGINEER"
+        ],
+        "bio": "Polytechnic senior who gave me my first career advice. Haven't talked since last year.",
+        "goal": 30,
+        "next_due_date": "2026-02-15"
+    },
+    {
+        "id": 14,
+        "name": "Lutfar Rahman",
+        "picture": "https://i.ibb.co.com/B5ypq2jg/m-9.jpg",
+        "email": "lutfar.mentor@gmail.com",
+        "days_since_contact": 14,
+        "status": "almost due",
+        "tags": [
+            "WORK",
+            "MENTOR"
+        ],
+        "bio": "A senior software engineer who reviews my pull requests. Great source of learning TypeScript.",
+        "goal": 14,
+        "next_due_date": "2026-04-14"
+    },
+    {
+        "id": 15,
+        "name": "Sultana Razia",
+        "picture": "https://i.ibb.co.com/XrMNT8j6/g-7.jpg",
+        "email": "razia.edu@gmail.com",
+        "days_since_contact": 5,
+        "status": "on-track",
+        "tags": [
+            "SCHOOL",
+            "TEACHER"
+        ],
+        "bio": "My English teacher from school. I occasionally send her updates about my development career.",
+        "goal": 30,
+        "next_due_date": "2026-05-02"
+    },
+    {
+        "id": 16,
+        "name": "Kamrul Islam",
+        "picture": "https://i.ibb.co.com/5hFCqRsv/m-10.webp",
+        "email": "kamrul.it@gmail.com",
+        "days_since_contact": 35,
+        "status": "overdue",
+        "tags": [
+            "HOBBY",
+            "GAMING"
+        ],
+        "bio": "Old gaming buddy. We used to spend hours on PC games during diploma days.",
+        "goal": 20,
+        "next_due_date": "2026-03-28"
+    },
+    {
+        "id": 17,
+        "name": "Farhana Yasmin",
+        "picture": "https://i.ibb.co.com/JFpN81ST/g-8.avif",
+        "email": "farhana.y@live.com",
+        "days_since_contact": 9,
+        "status": "on-track",
+        "tags": [
+            "WORK",
+            "HR"
+        ],
+        "bio": "A contact from a local software firm. She provides updates on new developer job openings.",
+        "goal": 14,
+        "next_due_date": "2026-04-20"
+    },
+    {
+        "id": 18,
+        "name": "Tanvir Ahmed",
+        "picture": "https://i.ibb.co.com/whxmYR62/m-11.webp",
+        "email": "tanvir.tech@gmail.com",
+        "days_since_contact": 22,
+        "status": "overdue",
+        "tags": [
+            "COLLEGE",
+            "PROJECTS"
+        ],
+        "bio": "Lab partner from Dinajpur. We built our first basic HTML website together in 2023.",
+        "goal": 15,
+        "next_due_date": "2026-04-05"
+    },
+    {
+        "id": 19,
+        "name": "Nusrat Jahan",
+        "picture": "https://i.ibb.co.com/fVDJwPVB/g-9.jpg",
+        "email": "nusrat.art@gmail.com",
+        "days_since_contact": 10,
+        "status": "almost due",
+        "tags": [
+            "HOBBY",
+            "DESIGN"
+        ],
+        "bio": "Childhood friend who is into digital art. We share Figma tips and color palette ideas.",
+        "goal": 12,
+        "next_due_date": "2026-04-16"
+    },
+    {
+        "id": 20,
+        "name": "Rashedul Haque",
+        "picture": "https://i.ibb.co.com/Xn6rwgZ/m-13.webp",
+        "email": "rashed.dev@gmail.com",
+        "days_since_contact": 0,
+        "status": "on-track",
+        "tags": [
+            "WORK",
+            "NEXTJS"
+        ],
+        "bio": "Just met at a tech meetup today. He is an expert in server-side rendering and Next.js optimization.",
+        "goal": 7,
+        "next_due_date": "2026-04-21"
+    }
+]
