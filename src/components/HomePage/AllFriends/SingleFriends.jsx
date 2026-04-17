@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 
 const SingleFriends = ({ frd }) => {
-    console.log(frd);
+    // console.log(frd);
      const {id, name, days_since_contact, picture, tags, status } = frd
 
     return (

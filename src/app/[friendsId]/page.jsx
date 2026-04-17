@@ -93,9 +93,9 @@ const FriendsDetails = async ({ params }) => {
 
                                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-                                    <HandleBtn type="Call"/>
-                                    <HandleBtn type="Text"/>
-                                    <HandleBtn type="Video"/>
+                                    <HandleBtn expectedFriend={expectedFriend} type="Call"/>
+                                    <HandleBtn expectedFriend={expectedFriend}  type="Text"/>
+                                    <HandleBtn  expectedFriend={expectedFriend} type="Video"/>
 
                                     {/* <div
                                         // onClick={() => handleText(expectedFriends)}
