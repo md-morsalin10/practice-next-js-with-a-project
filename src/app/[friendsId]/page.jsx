@@ -1,3 +1,4 @@
+import HandleBtn from '@/components/HandleBtn/HandleBtn';
 import Image from 'next/image';
 import React from 'react';
 import { BiSolidTrash } from 'react-icons/bi';
@@ -92,15 +93,11 @@ const FriendsDetails = async ({ params }) => {
 
                                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-                                    <div
-                                        // onClick={() => handleCall(expectedFriends)}
-                                        className='flex flex-col justify-center items-center py-4 btn h-full transition-all duration-300 hover:bg-green-50 hover:border-green-300 hover:scale-105 active:scale-95'>
+                                    <HandleBtn type="Call"/>
+                                    <HandleBtn type="Text"/>
+                                    <HandleBtn type="Video"/>
 
-                                        <FiPhoneCall className='h-5 w-5 text-green-600' />
-                                        <button className=" btn-outline border-gray-100  text-[#244D3F]">Call</button>
-                                    </div>
-
-                                    <div
+                                    {/* <div
                                         // onClick={() => handleText(expectedFriends)}
                                         className='flex flex-col justify-center items-center py-4 btn h-full transition-all duration-300 hover:bg-yellow-50 hover:border-yellow-300 hover:scale-105 active:scale-95'>
                                         <IoMdText className='h-5 w-5 text-yellow-600' />
@@ -112,7 +109,7 @@ const FriendsDetails = async ({ params }) => {
                                         className='flex flex-col justify-center items-center py-4 btn h-full transition-all duration-300 hover:bg-blue-50 hover:border-blue-300 hover:scale-105 active:scale-95'>
                                         <IoIosVideocam className='text-blue-600 h-5 w-5' />
                                         <button className="border-gray-100 text-[#244D3F]">Video</button>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
