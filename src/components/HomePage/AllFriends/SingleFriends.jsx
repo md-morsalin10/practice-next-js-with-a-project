@@ -9,7 +9,7 @@ const SingleFriends = ({ frd }) => {
     return (
         <Link
             href={`/${id}`}
-            className='group border border-gray-50 rounded-2xl shadow-lg bg-white p-5 transition-all duration-300 hover:shadow-2xl hover:border-green-400 hover:-translate-y-2 hover:scale-[1.02] ease-in-out'>
+            className='group border border-green-200 rounded-2xl shadow-lg bg-[#16213E] p-5 transition-all duration-300 hover:shadow-2xl hover:border-primary hover:-translate-y-2 hover:scale-[1.02] ease-in-out'>
 
             <div className='flex justify-center items-center'>
                 <div
@@ -24,7 +24,7 @@ const SingleFriends = ({ frd }) => {
                 </div>
             </div>
             <div className='text-center space-y-1.5'>
-                <h3 className='text-[#1F2937] text-xl font-semibold'>{name}</h3>
+                <h3 className='text-[#D1FFD1] text-xl font-semibold'>{name}</h3>
                 <p className='text-[14px] text-[#64748B]'>{days_since_contact}d ago</p>
                 <div>
                     {tags.map((tag, ind) => <div key={ind} className="badge mx-1 bg-green-200 text-green-500 font-semibold badge-success">{tag}</div>)}

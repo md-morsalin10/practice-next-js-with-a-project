@@ -6,13 +6,19 @@ import { FriendsContext } from '../context/FriendsContext';
 
 
 const HandleBtn = ({type, expectedFriend}) => {
-    // console.log(type,"type");
+    
     const {handleBtn} = useContext(FriendsContext);
+
+    const handleClick = () => {
+  
+    const interactionData = { ...expectedFriend, actionType: type };
+    handleBtn(interactionData); 
+   };
     
  
     return (
         <div
-            onClick={() => handleBtn(expectedFriend)}
+            onClick={() => handleClick()}
             className='flex flex-col justify-center items-center py-4 btn h-full transition-all duration-300 hover:bg-green-50 hover:border-green-300 hover:scale-105 active:scale-95'>
 
             {type==="Call" ? <FiPhoneCall className='h-5 w-5 text-green-600' /> 

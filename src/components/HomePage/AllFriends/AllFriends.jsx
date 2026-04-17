@@ -5,7 +5,7 @@ import SingleFriends from './SingleFriends';
 
 const AllFriends = () => {
     const {friends, loader} = useFriends();
-    console.log(friends);
+    // console.log(friends);
     
     return (
         <div className='container mx-auto p-5 py-15'>
@@ -14,7 +14,7 @@ const AllFriends = () => {
             </div>):
             (
                 <div className='grid grid-cols-4 gap-8'>
-                    {friends.map(frd=> <SingleFriends key={frd.id} frd={frd}></SingleFriends>)}
+                    {friends.map((frd, index)=> <SingleFriends key={index} frd={frd}></SingleFriends>)}
                 </div>
             )}
         </div>

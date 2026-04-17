@@ -1,54 +1,30 @@
 "use client"
 import { useState } from "react";
 import { FriendsContext } from "./FriendsContext";
+import { toast } from "react-toastify";
 
 
 
 const FriendsProvider = ({ children }) => {
 
     const [details, setDetails] = useState([]);
+    // const [type, setType] = useState("all");
   
 
     const handleBtn = (expectedFriend) => {
         setDetails([...details, expectedFriend]);
-        console.log(details);
+     
+          toast.success(`${expectedFriend.actionType} With ${expectedFriend.name}`);
+          
  
     }
+
     
-    
 
-    // const handleText = (expectedFriends) => {
-    //     setTextDetails([...textDetails, expectedFriends])
-
-    //     // toast.success(`Text With ${expectedFriends.name}`, {
-    //     //     position: "top-center",
-    //     //     autoClose: 5000,
-    //     //     hideProgressBar: false,
-    //     //     closeOnClick: false,
-    //     //     pauseOnHover: true,
-    //     //     draggable: true,
-    //     //     progress: undefined,
-    //     //     theme: "light",
-    //     // });
-    // }
-
-    // const handleVideo = (expectedFriends) => {
-    //     setVideoDetails([...videoDetails, expectedFriends]);
-
-    //     // toast.success(`Video With ${expectedFriends.name}`, {
-    //     //     position: "top-center",
-    //     //     autoClose: 5000,
-    //     //     hideProgressBar: false,
-    //     //     closeOnClick: false,
-    //     //     pauseOnHover: true,
-    //     //     draggable: true,
-    //     //     progress: undefined,
-    //     //     theme: "light",
-    //     // });
-    // }
 
     const data = {
         handleBtn,
+        details,
 
     }
 
