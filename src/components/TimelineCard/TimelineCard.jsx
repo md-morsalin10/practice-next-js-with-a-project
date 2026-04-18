@@ -3,8 +3,10 @@ import { FiPhoneCall, FiVideo } from 'react-icons/fi';
 import { IoMdText } from 'react-icons/io';
 
 const TimelineCard = ({ frd }) => {
-    console.log(frd);
+    // console.log(frd);
+
     const {actionType} = frd
+    
     const icon = actionType === 'Text' ? <IoMdText  className='h-8 w-8 text-yellow-500'/> :
      actionType === 'Video' ? <FiVideo className='h-8 w-8 text-blue-500' /> 
      : <FiPhoneCall className='h-8 w-8 text-green-500'/>;
